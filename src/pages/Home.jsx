@@ -1,4 +1,9 @@
 import React from 'react'
+import hexa from './assets/Icon.png'
+import tech from './assets/Icon2.png'
+import estate1 from './assets/Icon3.png'
+import estate2 from './assets/Icon4.png'
+import estate3 from './assets/Icon5.png'
 
 const Home = () => {
   return (
@@ -60,7 +65,7 @@ const Home = () => {
         </div>
         <div className='explore_down'>
             <div className='explore_container'>
-                <img src="./assets/icon.png" alt="" className='explore_icon'/>
+                <img src= {hexa} alt="" className='explore_icon'/>
                 <h5 className='container_title'>CE Support </h5>
                 <p className='container_para'>
                     Donec mi lorem, consequat a quam <br/>
@@ -73,7 +78,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='explore_container shadow'>
-                <img src="./assets/icon2.png" alt="" className='explore_icon'/>
+                <img src={tech} alt="" className='explore_icon'/>
                 <h5 className='container_title'>CE Invest </h5>
                 <p className='container_para'>
                     Donec mi lorem, consequat a quam <br/>
@@ -86,7 +91,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='explore_container'>
-                <img src="./assets/icon3.png" alt="" className='explore_icon'/>
+                <img src={estate1} alt="" className='explore_icon'/>
                 <h5 className='container_title'>CE ConnectEHR </h5>
                  <p className='container_para'>
                     Donec mi lorem, consequat a quam <br/>
@@ -99,7 +104,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='explore_container'>
-                <img src="./assets/icon4.png" alt="" className='explore_icon'/>
+                <img src={estate2} alt="" className='explore_icon'/>
                 <h5 className='container_title'>CE Marketplace </h5>
                  <p className='container_para'>
                     Donec mi lorem, consequat a quam <br/>
@@ -112,7 +117,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='explore_container'>
-                <img src="./assets/icon5.png" alt="" className='explore_icon'/>
+                <img src={estate3} alt="" className='explore_icon'/>
                 <h5 className='container_title'>CE Flow </h5>
                  <p className='container_para'>
                     Donec mi lorem, consequat a quam <br/>
