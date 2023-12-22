@@ -9,8 +9,6 @@ const Footer = () => {
         <div className="footer_left">
           <img src='./assets/logo2.png' alt="CloudEquipment" className='footer_logo' />
           <p className='footer_description'> We are always open to discuss your project and <br/> improve your online presence. </p>
-
-          <div className='contact'>
             <div className='contact_container'>
               <div className='footer_contact'>
                 <h6 className='contact_title'>Email me at</h6>
@@ -29,9 +27,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
 
-        <footer className='footer_right'>
+        <div className='footer_right'>
           <div>
             <h5 className='footer_title'>COMPANY</h5>
             <p className='footer_para'>Our Story</p>
@@ -54,7 +51,7 @@ const Footer = () => {
             <p className='footer_para'>For Healthcare Providers</p>
             <p className='footer_para'>Others</p>
           </div>
-        </footer>
+        </div>
       </footer>
     </>
   )
